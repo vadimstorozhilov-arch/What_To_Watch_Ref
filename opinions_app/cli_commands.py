@@ -2,7 +2,7 @@ import csv
 import click
 
 
-from model import Opinion
+from .models import Opinion
 from . import app, db
 
 
